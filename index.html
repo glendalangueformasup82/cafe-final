@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A la Bonne heure – Coffee shop de quartier à Grenoble. Découvrez nos spécialités de café, pâtisseries maison et ambiance chaleureuse. Idéal pour travailler, se détendre ou déguster un excellent café."
+    />
+    <meta
+      name="keywords"
+      content="café, coffee shop, Grenoble, spécialités café, pâtisseries, quartier, pause café"
+    />
+    <meta name="author" content="A la Bonne heure" />
+    <title>A la Bonne heure – Coffee shop de quartier à Grenoble</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <h1 class="logo-text">A la Bonne heure</h1>
+          </div>
+          <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#menu">Notre carte</a></li>
+            <li><a href="#story">Notre histoire</a></li>
+            <li><a href="#cta">Nous trouver</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero-content">
+          <h2 class="hero-title">Bienvenue à la Bonne heure</h2>
+          <p class="hero-subtitle">
+            Votre pause café du quotidien, dans une ambiance chaleureuse et
+            accueillante
+          </p>
+          <p class="hero-description">
+            Découvrez nos spécialités de café, nos pâtisseries maison et notre
+            sélection de boissons artisanales. Un lieu parfait pour savourer un
+            moment, travailler ou passer du temps entre amis.
+          </p>
+          <a href="#menu" class="btn btn-primary">Découvrir notre carte</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="images/hero-cafe.jpg"
+            alt="Café fraîchement préparé sur une table en bois"
+          />
+        </div>
+      </section>
+
+      <!-- Menu Section -->
+      <section id="menu" class="menu">
+        <div class="container">
+          <h2 class="section-title">Notre carte</h2>
+          <p class="section-subtitle">Découvrez nos spécialités et formules</p>
+
+          <!-- Boissons chaudes -->
+          <div class="menu-category">
+            <h3>Boissons chaudes</h3>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Espresso</h4>
+                <p class="menu-description">
+                  Double shot de nos grains torréfiés en local, intense et
+                  équilibré
+                </p>
+                <p class="menu-price">3,50 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Cappuccino signature</h4>
+                <p class="menu-description">
+                  Espresso, lait mousseux et une touche de cacao. La maison.
+                </p>
+                <p class="menu-price">5,50 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Latte classique</h4>
+                <p class="menu-description">
+                  Espresso et lait chaud crémeux, légèrement sucré
+                </p>
+                <p class="menu-price">5,00 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Filtre du jour</h4>
+                <p class="menu-description">
+                  Sélection premium préparée à la française. Servi en carafe
+                </p>
+                <p class="menu-price">4,00 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Chocolat chaud artisanal</h4>
+                <p class="menu-description">
+                  Chocolat noir 70%, lait entier, tête de mousse
+                </p>
+                <p class="menu-price">5,50 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Thé sélectionné</h4>
+                <p class="menu-description">
+                  Sélection de thés verts, noirs et rouges de qualité
+                </p>
+                <p class="menu-price">4,50 €</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Boissons froides -->
+          <div class="menu-category">
+            <h3>Boissons froides & spécialités</h3>
+            <div class="menu-grid">
+              <div class="menu-item">
+                <h4>Iced Latte</h4>
+                <p class="menu-description">
+                  Espresso refroidi, glaçons, lait froid. Idéal pour l'été
+                </p>
+                <p class="menu-price">5,50 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Cold Brew</h4>
+                <p class="menu-description">
+                  Café infusé 24h à froid, smooth et savoureux
+                </p>
+                <p class="menu-price">6,00 €</p>
+              </div>
+              <div class="menu-item">
+                <h4>Jus frais du jour</h4>
+                <p class="menu-description">
+                  Fruits et légumes de saison, pressé sur place
+                </p>
+                <p class="menu-price">6,50 €</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formules  joeoi-->
+          <div class="menu-category">
+            <h3>Formules du jour</h3>
+            <div class="menu-grid">
+              <div class="menu-item menu-item-featured">
+                <h4>Formule petit-déjeuner</h4>
+                <p class="menu-description">
+                  Boisson chaude + Pain au chocolat ou croissant + Jus frais
+                </p>
+                <p class="menu-price">9,50 €</p>
+              </div>
+              <div class="menu-item menu-item-featured">
+                <h4>Pause gourmande</h4>
+                <p class="menu-description">
+                  Café signature + Pâtisserie maison au choix
+                </p>
+                <p class="menu-price">8,00 €</p>
+              </div>
+              <div class="menu-item menu-item-featured">
+                <h4>Moment détente</h4>
+                <p class="menu-description">
+                  Thé sélectionné + Scone fait maison + Confiture artisanale
+                </p>
+                <p class="menu-price">8,50 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Story Section -->
+      <section id="story" class="story">
+        <div class="container">
+          <h2 class="section-title">Notre histoire</h2>
+
+          <div class="story-content">
+            <div class="story-text">
+              <h3>Naissance d'une passion</h3>
+              <p>
+                A la Bonne heure a vu le jour en 2019, portée par la passion de
+                Julie et Marc pour l'excellent café. Convaincus que chaque tasse
+                peut être un moment de partage, ils ont ouvert ce petit coffee
+                shop de quartier pour créer un lieu où les habitués deviennent
+                des amis.
+              </p>
+              <p>
+                Notre nom ? Un clin d'œil à la rituelle conversation des
+                villages français, où l'on prend le temps de s'arrêter,
+                d'échanger et de savourer l'instant présent.
+              </p>
+            </div>
+
+            <div class="story-values">
+              <h3>Nos valeurs</h3>
+              <div class="values-grid">
+                <div class="value-item">
+                  <div class="value-icon">☕</div>
+                  <h4>Qualité</h4>
+                  <p>
+                    Grains sélectionnés, torréfaction artisanale, extraction
+                    parfaite
+                  </p>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon">🌱</div>
+                  <h4>Origine</h4>
+                  <p>
+                    Circuits courts, commerce équitable, producteurs de
+                    confiance
+                  </p>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon">❤️</div>
+                  <h4>Accueil</h4>
+                  <p>
+                    Service humain, ambiance chaleureuse, lieu de vie du
+                    quartier
+                  </p>
+                </div>
+                <div class="value-item">
+                  <div class="value-icon">🎨</div>
+                  <h4>Créativité</h4>
+                  <p>
+                    Pâtisseries maison, recettes signature, surprise du jour
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="story-origin">
+              <h3>D'où vient notre café ?</h3>
+              <p>
+                Nous travaillons directement avec des producteurs d'Éthiopie, du
+                Brésil et de Colombie. Chaque lot est torréfié à proximité par
+                <strong>Grenoble Roastery</strong>, un petit torréfacteur local
+                engagé. Cela garantit la fraîcheur du café et soutient une vraie
+                chaîne vertueuse.
+              </p>
+              <p>
+                Les pâtisseries sont confectionnées chaque matin par notre
+                boulanger partenaire avec des ingrédients de qualité et sans
+                additifs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section id="cta" class="cta-section">
+        <div class="container">
+          <div class="cta-grid">
+            <div class="cta-block">
+              <h3>Nous trouver</h3>
+              <p>
+                <strong>A la Bonne heure</strong><br />
+                42, rue de la Liberté<br />
+                38000 Grenoble<br />
+                <br />
+                <a href="tel:+33476123456">📞 +33 (0)4 76 12 34 56</a><br />
+                <a href="mailto:hello@alabonneheure.fr"
+                  >📧 hello@alabonneheure.fr</a
+                >
+              </p>
+              <a
+                href="https://maps.google.com"
+                class="btn btn-secondary"
+                target="_blank"
+                >Voir sur la carte</a
+              >
+            </div>
+
+            <div class="cta-block">
+              <h3>Horaires</h3>
+              <p>
+                <strong>Lundi – Vendredi</strong><br />
+                7h30 – 19h00<br />
+                <br />
+                <strong>Samedi</strong><br />
+                9h00 – 20h00<br />
+                <br />
+                <strong>Dimanche</strong><br />
+                10h00 – 18h00
+              </p>
+            </div>
+
+            <div class="cta-block newsletter">
+              <h3>Rester informé</h3>
+              <p>
+                Inscrivez-vous à notre newsletter pour découvrir nos nouveautés
+                et nos promotions
+              </p>
+              <form class="newsletter-form" id="newsletterForm">
+                <input
+                  type="email"
+                  placeholder="votre@email.fr"
+                  required
+                  aria-label="Adresse email"
+                />
+                <button type="submit" class="btn btn-primary">S'abonner</button>
+              </form>
+              <p
+                class="form-message"
+                id="formMessage"
+                style="display: none"
+              ></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>A la Bonne heure</h4>
+            <p>Coffee shop de quartier chaleureux et convivial</p>
+          </div>
+          <div class="footer-section">
+            <h4>Suivez-nous</h4>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" title="Instagram"
+                >Instagram</a
+              >
+              <a href="https://facebook.com" target="_blank" title="Facebook"
+                >Facebook</a
+              >
+              <a href="https://tiktok.com" target="_blank" title="TikTok"
+                >TikTok</a
+              >
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Légal</h4>
+            <div class="footer-links">
+              <a href="#privacy">Politique de confidentialité</a>
+              <a href="#cgv">Conditions d'utilisation</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 A la Bonne heure. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
