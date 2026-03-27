@@ -194,7 +194,7 @@ a:hover {
   border-bottom: 2px solid transparent;
   padding-bottom: 0.3rem;
 }
-
+/*  */
 .nav-menu a:hover {
   color: var(--primary-color);
   border-bottom-color: var(--primary-color);
